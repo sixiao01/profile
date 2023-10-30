@@ -1,0 +1,63 @@
+body {
+    background-color: #F2F4F8;
+    font-family: 'Arial', sans-serif; 
+    color: #333333; 
+    font-size: 16px; 
+    line-height: 1.5; 
+}
+
+h1, h2, h3 {
+    color: #2C3E50; 
+    font-family: 'Georgia', serif; 
+    line-height: 1.3; 
+}
+
+a {
+    color: #E74C3C;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C0392B; 
+    text-decoration: underline; 
+}
+
+.img-circle {
+    border-radius: 50%;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .card-white {
+    background: white;
+    padding: 30px;
+    border: 1px solid lightgrey;
+  }
+
+  .container {
+    width: 500px;  
+    margin: 0 auto; 
+  }
+
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
